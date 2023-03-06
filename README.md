@@ -1,2 +1,0 @@
-# OhjelmistoTestaus
-Robot Framework

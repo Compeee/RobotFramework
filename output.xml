@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20230305 19:16:43.653" rpa="false">
+<suite id="s1" name="Saucedemo" source="G:\Python\Saucedemo-RobotFramework\TestCases\Saucedemo.robot">
+<test id="s1-t1" name="Test Checkout">
+<kw name="Prepare Browser">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${DRIVER}</arg>
+</arguments>
+<msg timestamp="20230305 19:16:43.762" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20230305 19:16:43.765" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20230305 19:16:43.765" endtime="20230305 19:16:43.765"></status>
+</kw>
+<msg timestamp="20230305 19:16:43.766" level="FAIL">WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20230305 19:16:43.762" endtime="20230305 19:16:43.766"></status>
+</kw>
+<status status="FAIL" starttime="20230305 19:16:43.762" endtime="20230305 19:16:43.766"></status>
+</kw>
+<status status="FAIL" starttime="20230305 19:16:43.761" endtime="20230305 19:16:43.766" critical="yes">WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<status status="FAIL" starttime="20230305 19:16:43.654" endtime="20230305 19:16:43.767"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Saucedemo">Saucedemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
