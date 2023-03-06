@@ -2,3 +2,7 @@ debug.log
 log.html
 output.xml
 report.html
+
+venv/
+.idea/
+*.png
