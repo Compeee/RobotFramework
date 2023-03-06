@@ -1,2 +1,2 @@
 # OhjelmistoTestaus
-Robot Framework / Ohjelmistotuotanto kurssi
+Robot Framework
