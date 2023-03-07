@@ -1,8 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
 
-
-
 *** Variables ***
 
 ${URL}            https://www.saucedemo.com/
@@ -12,6 +10,7 @@ ${DELAY}          0
 
 *** Test Cases ***
 Test Checkout
+
     Prepare Browser
 
     Login      standard_user      secret_sauce
@@ -56,6 +55,6 @@ Your Information
     Click Element   xpath://*[@id="continue"]
 Logout
     Click Button  xpath://*[@id="react-burger-menu-btn"]
-    Sleep  1s
+    Sleep  0.1s
     Click Link  xpath://*[@id="logout_sidebar_link"]
 
